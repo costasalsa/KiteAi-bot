@@ -8,7 +8,7 @@ class BaseClient:
 
         self.user_agent = user_agent 
         self.proxy = proxy
-
+ 
         self.website_headers = {
             'authority': 'api.getgrass.io',
             'accept': 'application/json, text/plain, */*',
